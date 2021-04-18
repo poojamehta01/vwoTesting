@@ -9,6 +9,9 @@ import static com.automation.utils.AssertionUtils.*;
 import static com.automation.utils.CommonUtils.*;
 import static com.automation.utils.ConfigUtils.getPropertyByKey;
 import static com.automation.utils.DriverUtils.*;
+import static com.automation.utils.ScreenshotUtils.*;
+
+import java.io.IOException;
 
 //import io.qameta.allure.Step;
 
@@ -73,10 +76,11 @@ public class MainPage {
 	}
 
 	//@Step("Verify button is highlighted")
-	public void highlightTryFree() throws InterruptedException {
+	public void highlightTryFree() throws InterruptedException, IOException {
 		switchDefaultFrame();
 		highlight(tryFreeButton);
 		assertPresent(tryFreeButton);
+		getScreenshot();
 	}
 
 }
