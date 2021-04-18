@@ -1,0 +1,36 @@
+11:43:51.728 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+11:43:57.575 [main] INFO  com.automation.utils.LogUtils - Actual text is VWO - Application and expected text is VWO - Application
+actual : VWO - Application
+expected : VWO - Application
+11:43:57.576 [main] DEBUG com.automation.utils.LogUtils - application launched successfully
+11:43:57.576 [main] DEBUG com.automation.utils.LogUtils - Clicking on heatMap button
+11:43:57.580 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be clickable
+11:44:00.613 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:44:00.613 [main] DEBUG com.automation.utils.LogUtils - Clicked heatMapButton
+11:44:00.614 [main] DEBUG com.automation.utils.LogUtils - Switching to  Main Page
+11:44:00.614 [main] DEBUG com.automation.utils.LogUtils - performing windwow switch
+11:44:00.662 [main] DEBUG com.automation.utils.LogUtils - Switched to Main Page
+11:44:08.847 [main] INFO  com.automation.utils.LogUtils - Actual text is VWO | #1 A/B Testing Tool in the World and expected text is VWO | #1 A/B Testing Tool in the World
+actual : VWO | #1 A/B Testing Tool in the World
+expected : VWO | #1 A/B Testing Tool in the World
+11:44:08.847 [main] DEBUG com.automation.utils.LogUtils - Main Page Title found
+11:44:08.847 [main] DEBUG com.automation.utils.LogUtils - switching to Heatmap Frame
+11:44:08.847 [main] DEBUG com.automation.utils.LogUtils - performing frame switch
+11:44:08.932 [main] INFO  com.automation.utils.LogUtils - Actual text is VWO | #1 A/B Testing Tool in the World and expected text is VWO | #1 A/B Testing Tool in the World
+actual : VWO | #1 A/B Testing Tool in the World
+expected : VWO | #1 A/B Testing Tool in the World
+11:44:08.932 [main] DEBUG com.automation.utils.LogUtils - Main Page Title found
+11:44:08.933 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be clickable
+11:44:09.803 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:44:09.803 [main] DEBUG com.automation.utils.LogUtils - Clicks on elementList
+11:44:09.804 [main] DEBUG com.automation.utils.LogUtils - performing frame switch
+11:44:09.924 [main] DEBUG com.automation.utils.LogUtils - switching to elementList Frame
+11:44:09.924 [main] DEBUG com.automation.utils.LogUtils - performing frame switch
+11:44:10.024 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be clickable
+11:44:10.196 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:44:10.196 [main] DEBUG com.automation.utils.LogUtils - Clicks on tryFreeEL in Element List
+11:44:10.197 [main] DEBUG com.automation.utils.LogUtils - performing frame switch
+11:44:10.204 [main] DEBUG com.automation.utils.LogUtils - performing active element switch
+11:44:10.211 [main] DEBUG com.automation.utils.LogUtils - waiting for element to be visible
+11:44:10.275 [main] DEBUG com.automation.utils.LogUtils - Element TRY VWO FOR FREE is displayed !!!
+11:44:10.275 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
