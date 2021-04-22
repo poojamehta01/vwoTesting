@@ -1,3 +1,20 @@
+/******
+ * OOPS Concpet - POLYMORPHISM - single action different way 
+ * METHOD OVERLOADING - multiple methods with same name but diff. parameters 
+ * method can be overloaded by change in no.of/ type of arguments
+ * EX - IMPICIT WAIT- we can use different time like sec, min, hrs
+ *ACTION CLASS - used in CommonUtils
+ *moveToElement(WebElement target) or moveToElement(WebElement target, int xofset, int y ofset) 
+ *click() or click(WebElement target)
+ *sendKeys(CharSequence... key) or sendKeys(WebElement target, CharSequence... key)
+ *clickAndHold() or clickAndHold(WebElement target)
+ *ASSERT CLASS - used in AssertionUtils
+ *assertEquals(int/byte/char/long/float ACTUAL, int/byte/char/long/float EXPECTED)
+ * 
+ *assertTrue(boolean condition) or assertTrue(boolean condition, String message)
+ *
+ * 
+ */
 package com.automation.utils;
 
 import org.openqa.selenium.WebElement;
