@@ -1,3 +1,31 @@
+/***
+ * OOP CONCEPT USED - INTERFACE/ ABSTRACTION - WebDriver is an interface
+ * WebDriver driver = new ChromeDriver(); //initiazling chrome driver using Selenium WebDriver 
+ * // Webdriver - interface , chromedriver - class
+ * i.e we are creating reference variable(driver) of interface(WebDriver) and creating an object
+ * interface can have methods and variables just like class methods but methods in interface are ABSTRACT by default
+ *  ABSTRACTION - HIDE implementation of internal details and just show functionality 
+ *  
+ *  WEB ELEMENT is also an interface used to identify elements in web page 
+ *  WEB DRIVER is also am interface used to launch diff. browsers such an chrome/IE/ SAFARAI/ Firefox
+ */
+package com.automation.utils;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.WebElement;
+
+import static com.automation.utils.ConfigUtils.getPropertyByKey;
+import static com.automation.utils.ConfigUtils.loadProperties;
+
+/**
+ * DriverUtils: Utility methods for invoking webdriver instance and performing
+ * operations on selenium webdriver Available Utils : initDiver(), getDriver(),
+ * tearDown()
+ */
 package com.automation.utils;
 
 import org.openqa.selenium.Alert;
