@@ -1,3 +1,20 @@
+/******
+ * POM - PAGE OBJECT MODEL
+ * this is a page class
+ here i have used xpath to locae the elements 
+ OOP CONCEPT USED - ABSTRACTION - i have used this locators in test but we cant see these locators in test, i.e they are hidden
+ ABSTRACTION - HIDE implementation of internal details and just show functionality 
+ 
+ all classes are example of encapsulation
+ H OOP CONCEPT USED - ENCAPSULATION - data members are declared using @FindBy 
+ ie. ALL VARIABLES - PRIVATE, METHODS - PUBLIC
+ and intialization of data members is done using constructor to utilize those in methods
+ 
+ LOCATOR Ex - by.id/name/cssSelector/classNam/tagName/xpath
+ 
+ *****/
+ 
+
 package com.automation.pages;
 
 import static com.automation.utils.LogUtils.*;
